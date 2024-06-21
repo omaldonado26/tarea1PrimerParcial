@@ -1,13 +1,13 @@
-
 package com.hn.uth.tarea1;
 
 import java.util.Scanner;
 
 public class App 
 {
-    public static void main(String[] args) {
+    public static void main( String[] args )
+    {
         Scanner scanner = new Scanner(System.in);
-        
+
         while (true) {
             System.out.println("Seleccione una operación:");
             System.out.println("1. Calcular el área de un círculo");
